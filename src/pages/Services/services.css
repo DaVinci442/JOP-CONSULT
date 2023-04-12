@@ -1,0 +1,136 @@
+.services{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services .top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .top img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+.services .top h2{
+    position: absolute;
+    color: aliceblue;
+    left: 4rem;
+}
+.services .middle{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:  #A9CBB2;
+    flex-direction: column;
+}
+.services .container{
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 2rem 2rem 0 2rem ;
+    gap: 1rem;
+    display: flex;
+}
+.services .text{
+   width: 80%;
+   font-weight: bold;
+   text-align: center;
+   font-size: 1rem;
+   margin-top: 5rem;
+   margin-bottom: 2rem;
+}
+.services .downIcon{
+    font-size: 1.5rem;
+}
+.services .one{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #95B4D1;
+    cursor: pointer;
+}
+.services .two{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #E2E0CA;
+    cursor: pointer;
+}
+.services .three{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #F1E3EF;
+    cursor: pointer;
+}
+.services .four{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #E7F8F8;
+    cursor: pointer;
+}
+.services .five{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #E7F8F8;
+    cursor: pointer;
+}
+.services .title{
+    font-size:1.2rem;
+    font-weight:500;
+    text-align: left;
+}
+
+.services .down{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 2rem 0;
+}
+.services .down .item{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.services .down .icon{
+   font-size: 1.5rem;
+   color: #699BF7;
+}
+.services .down .call{
+   font-weight: bold;
+}

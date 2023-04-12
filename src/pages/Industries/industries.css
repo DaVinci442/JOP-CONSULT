@@ -1,0 +1,148 @@
+.industries{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.industries .top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.industries .top img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+.industries .top h2{
+    position: absolute;
+    color: aliceblue;
+    left: 4rem;
+}
+.industries .middle{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:  #A9CBB2;
+    flex-direction: column;
+}
+.industries .container{
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 2rem 2rem 0 2rem ;
+    gap: 1rem;
+    display: flex;
+}
+.industries .text{
+   width: 80%;
+   font-weight: bold;
+   text-align: center;
+   font-size: 1rem;
+   margin-top: 5rem;
+   margin-bottom: 2rem;
+}
+.industries .downIcon{
+    font-size: 1.5rem;
+}
+.industries .one{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #FFBFBF;
+    cursor: pointer;
+}
+.industries .two{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #B1B0B2;
+    cursor: pointer;
+}
+.industries .three{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #D8F9DB;
+    cursor: pointer;
+}
+.industries .four{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #F5F9CC;
+    cursor: pointer;
+}
+.industries .five{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    width: 90%;
+    background: #9ED7F8;
+    cursor: pointer;
+}
+.industries .title{
+    font-size:1.2rem;
+    font-weight:500;
+    text-align: left;
+}
+
+.industries .down{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.industries .downdown{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1rem 0;
+}
+.industries .contactus{
+    margin-top: 1.5rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.industries .down .item{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.industries .down .icon{
+   font-size: 1.5rem;
+   color: #699BF7;
+}
+.industries .down .call{
+   font-weight: bold;
+}
